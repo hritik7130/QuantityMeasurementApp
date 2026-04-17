@@ -19,7 +19,7 @@ public class CorsConfig {
         // 🔥 IMPORTANT (use patterns instead of strict origins)
         config.setAllowedOriginPatterns(List.of(
                 "http://localhost:5173",
-                "https://quantity-measurement-app-frontend-blush.vercel.app"
+                "https://quantity-measurement-app-frontend-red.vercel.app"
         ));
 
         config.setAllowedHeaders(List.of("*"));
